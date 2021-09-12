@@ -9,6 +9,11 @@ rtl-sdr turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 # New enhancements and features in this version
 
 Many different developments have been taken in this release. For an overview, see [improvements](README_improvements.md)
+# Install OSX
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 2> /dev/null
+
+brew install librtlsdr
 
 # Build / Install (on debian/ubuntu)
 
